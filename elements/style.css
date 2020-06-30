@@ -1,0 +1,98 @@
+/* Decoration des liens */
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Fin décoration des liens */
+
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav * {
+  margin: 0 10px;
+}
+
+nav button {
+  padding: 7px 10px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+}
+
+.search input {
+  width: 100%;
+  height: 2.5em;
+  margin: 1.2em;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  padding: 10px;
+  margin: 10px;
+  border:0px;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background-color: #F9F8F8;
+  bottom: 0;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer .footer-country {
+  display: flex;
+  border: 1px solid #e4e4e4;
+  width: 100%;
+}
+
+footer .last-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer .footer-text-left {
+  display: flex;
+}
+
+footer .footer-text-right {
+  display: flex;
+}
